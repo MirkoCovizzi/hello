@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Santiago Vila <sanvila@debian.org>
 Standards-Version: 3.9.6
-Build-Depends: debhelper (>= 9.20120311)
+Build-Depends: debhelper-compat (= 9)
 Homepage: http://www.gnu.org/software/hello/
 
 Package: hello
