@@ -1,3 +1,12 @@
+hello (2.10-2) unstable; urgency=medium
+
+  * Fix version skew. Closes: #928887.
+  * Drop debian/compat and use new syntax to specify compat level.
+  * Standards-Version: 4.3.0 (no changes for this).
+  * Rules-Requires-Root: no
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 13 May 2019 20:06:50 +0200
+
 hello (2.10-1) unstable; urgency=low
 
   * New upstream release.
