@@ -1,9 +1,2 @@
-# debian/watch
-# Debian uscan file for hello package
-# Manpage: uscan(1)
-
-# Compulsory line, format version of this file
-version=3
-
-# Current version from GNU site
-http://ftp.gnu.org/gnu/hello/hello-(.*).tar.gz
+version=4
+opts=pgpsigurlmangle=s/$/.sig/ https://ftp.gnu.org/gnu/@PACKAGE@/@PACKAGE@@ANY_VERSION@@ARCHIVE_EXT@
