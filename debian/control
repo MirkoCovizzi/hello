@@ -11,9 +11,9 @@ Rules-Requires-Root: no
 
 Package: hello
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: hello-traditional
-Replaces: hello-traditional, hello-debhelper (<< 2.9)
+Replaces: hello-debhelper (<< 2.9), hello-traditional
 Breaks: hello-debhelper (<< 2.9)
 Description: example package based on GNU hello
  The GNU hello program produces a familiar, friendly greeting.  It
