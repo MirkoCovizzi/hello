@@ -1,3 +1,20 @@
+hello (2.10-3) unstable; urgency=medium
+
+  * Add some autopkgtests. Closes: #871622.
+  * Add Vcs-Git and Vcs-Browser fields to debian/control. Closes: #893083.
+  * Raise debhelper compat level from 9 to 13. This enables autoreconf,
+    and as a result, some additional build-dependencies are required:
+  - Add texinfo to Build-Depends, for a normal build.
+  - Add help2man to Build-Depends, for a build using git.
+  * Use secure URI in Homepage field.
+  * Set upstream metadata fields Bug-Submit, Name and Repository-Browse.
+  * Add upstream signing-key.
+  * Use a common debian/watch file which is valid for most GNU packages.
+  * Sort control fields using wrap-and-sort.
+  * Update standards version to 4.6.2.
+
+ -- Santiago Vila <sanvila@debian.org>  Mon, 26 Dec 2022 16:30:00 +0100
+
 hello (2.10-2) unstable; urgency=medium
 
   * Fix version skew. Closes: #928887.
