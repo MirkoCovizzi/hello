@@ -5,6 +5,8 @@ Maintainer: Santiago Vila <sanvila@debian.org>
 Standards-Version: 4.3.0
 Build-Depends: debhelper-compat (= 9)
 Homepage: http://www.gnu.org/software/hello/
+Vcs-Git: https://salsa.debian.org/sanvila/hello.git
+Vcs-Browser: https://salsa.debian.org/sanvila/hello
 Rules-Requires-Root: no
 
 Package: hello
