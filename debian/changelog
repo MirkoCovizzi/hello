@@ -1,3 +1,9 @@
+hello (2.10-3mirko2) noble; urgency=medium
+
+  * Fix lintian warning
+
+ -- Mirko Covizzi <mrkcvzz@gmail.com>  Sun, 06 Apr 2025 00:17:07 +0200
+
 hello (2.10-3mirko1) noble; urgency=medium
 
   * Add testing.sh
