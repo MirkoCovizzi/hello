@@ -478,7 +478,7 @@ hello (2.10-3yourname1) noble; urgency=medium
   * Add testing.sh.
   * Echo message in postinst.
 
- -- Your Name <your@email.com>  Wed, 05 Apr 2025 13:47:00 +0000
+ -- your-name <your-name@email.com>  Wed, 05 Apr 2025 13:47:00 +0000
 ```
 
 Then mark it as a released version:
